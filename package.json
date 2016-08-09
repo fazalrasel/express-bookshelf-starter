@@ -1,0 +1,27 @@
+{
+  "name": "express-bookshelf-starter",
+  "version": "0.0.1",
+  "description": "Starter App For Express With Bookshelf",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha -R spec \"**/*.spec.js\" --colors",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "FazalRasel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bookshelf": "^0.10.0",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "knex": "^0.11.9",
+    "mysql": "^2.11.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "superagent": "^2.1.0",
+    "supertest": "^1.2.0"
+  }
+}
